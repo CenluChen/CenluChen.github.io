@@ -493,9 +493,9 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="1-正则表达式"><a href="#1-正则表达式" class="headerlink" title="1.正则表达式"></a>1.正则表达式</h1><h2 id="1-1-什么是正则表达式"><a href="#1-1-什么是正则表达式" class="headerlink" title="1.1 什么是正则表达式"></a>1.1 什么是正则表达式</h2><p>正则表达式(regular expression)描述了一种字符串匹配的模式（pattern），可以用来检查一个串是否含有某种子串、将匹配的子串替换或者从某个串中取出符合某个条件的子串等。</p>
+                <h2 id="1-正则表达式"><a href="#1-正则表达式" class="headerlink" title="1.正则表达式"></a>1.正则表达式</h2><h3 id="1-1-什么是正则表达式"><a href="#1-1-什么是正则表达式" class="headerlink" title="1.1 什么是正则表达式"></a>1.1 什么是正则表达式</h3><p>正则表达式(regular expression)描述了一种字符串匹配的模式（pattern），可以用来检查一个串是否含有某种子串、将匹配的子串替换或者从某个串中取出符合某个条件的子串等。</p>
 <p>正则对文本的分析或修改过程为：首先正则表达式应用的是文本字符串（text/string），它会以定义的模式从左到右匹配文本，每个源字符只匹配一次。</p>
-<h2 id="1-2-示例"><a href="#1-2-示例" class="headerlink" title="1.2 示例"></a>1.2 示例</h2><table>
+<h3 id="1-2-示例"><a href="#1-2-示例" class="headerlink" title="1.2 示例"></a>1.2 示例</h3><table>
 <thead>
 <tr>
 <th>正则表达式</th>
@@ -515,7 +515,7 @@
 <td>^定义模式必须匹配字符串的开始，d+ 匹配一个或多个数字，? 表明小括号内的语句是可选的，. 匹配 “.”，小括号表示分组。例如匹配：”5”、”1.5” 和 “2.21”</td>
 </tr>
 </tbody></table>
-<h2 id="1-3字符串自带的正则匹配"><a href="#1-3字符串自带的正则匹配" class="headerlink" title="1.3字符串自带的正则匹配"></a>1.3字符串自带的正则匹配</h2><table>
+<h3 id="1-3字符串自带的正则匹配"><a href="#1-3字符串自带的正则匹配" class="headerlink" title="1.3字符串自带的正则匹配"></a>1.3字符串自带的正则匹配</h3><table>
 <thead>
 <tr>
 <th>方法</th>
@@ -539,7 +539,7 @@
 <td>替换所有匹配的字符</td>
 </tr>
 </tbody></table>
-<h1 id="2-Java正则表达式规则"><a href="#2-Java正则表达式规则" class="headerlink" title="2.Java正则表达式规则"></a>2.Java正则表达式规则</h1><h2 id="2-1常见符号"><a href="#2-1常见符号" class="headerlink" title="2.1常见符号"></a>2.1常见符号</h2><table>
+<h2 id="2-Java正则表达式规则"><a href="#2-Java正则表达式规则" class="headerlink" title="2.Java正则表达式规则"></a>2.Java正则表达式规则</h2><h3 id="2-1常见符号"><a href="#2-1常见符号" class="headerlink" title="2.1常见符号"></a>2.1常见符号</h3><table>
 <thead>
 <tr>
 <th>正则表达式</th>
@@ -591,7 +591,7 @@
 <td>匹配X或Z</td>
 </tr>
 </tbody></table>
-<h2 id="2-2-元字符"><a href="#2-2-元字符" class="headerlink" title="2.2 元字符"></a>2.2 元字符</h2><p>元字符是一个预定义的字符</p>
+<h3 id="2-2-元字符"><a href="#2-2-元字符" class="headerlink" title="2.2 元字符"></a>2.2 元字符</h3><p>元字符是一个预定义的字符</p>
 <table>
 <thead>
 <tr>
@@ -680,7 +680,7 @@
 <td>匹配 n，其中 n 是以四位十六进制数表示的 Unicode 字符。例如，\u00A9 匹配版权符号 (©)</td>
 </tr>
 </tbody></table>
-<h2 id="2-3限定符"><a href="#2-3限定符" class="headerlink" title="2.3限定符"></a>2.3限定符</h2><p>限定符定义了一个元素可以发生的频率。</p>
+<h3 id="2-3限定符"><a href="#2-3限定符" class="headerlink" title="2.3限定符"></a>2.3限定符</h3><p>限定符定义了一个元素可以发生的频率。</p>
 <table>
 <thead>
 <tr>
@@ -733,7 +733,7 @@
 <td>执行反向预测先行搜索的子表达式，该表达式匹配不处于匹配 pattern 的字符串的起始点的搜索字符串。它是一个非捕获匹配，即不能捕获供以后使用的匹配。例如，’Windows (?!95|98|NT|2000)’ 匹配”Windows 3.1”中的 “Windows”，但不匹配”Windows 2000”中的”Windows”。预测先行不占用字符，即发生匹配后，下一匹配的搜索紧随上一匹配之后，而不是在组成预测先行的字符后。</td>
 </tr>
 </tbody></table>
-<h2 id="2-4-表达模式"><a href="#2-4-表达模式" class="headerlink" title="2.4 表达模式"></a>2.4 表达模式</h2><p>在正则表达式的开头指定模式修饰符</p>
+<h3 id="2-4-表达模式"><a href="#2-4-表达模式" class="headerlink" title="2.4 表达模式"></a>2.4 表达模式</h3><p>在正则表达式的开头指定模式修饰符</p>
 <table>
 <thead>
 <tr>
@@ -754,7 +754,7 @@
 <td>多行模式,使正则的 ^ 和 $ 匹配字符串中每行的开始和结束</td>
 </tr>
 </tbody></table>
-<h2 id="2-5使用"><a href="#2-5使用" class="headerlink" title="2.5使用"></a>2.5使用</h2><p>java.util.regex包主要包括一下三个类</p>
+<h3 id="2-5使用"><a href="#2-5使用" class="headerlink" title="2.5使用"></a>2.5使用</h3><p>java.util.regex包主要包括一下三个类</p>
 <ul>
 <li><p><strong>Pattern类</strong><br>pattern 对象是一个正则表达式的编译表示。Pattern 类没有公共构造方法。要创建一个 Pattern 对象，你必须首先调用其公共静态编译方法，它返回一个 Pattern 对象。该方法接受一个正则表达式作为它的第一个参数。</p>
 </li>
@@ -774,7 +774,7 @@ class RegexExample1{
         System.out.println("正则表达式是否匹配? " + isMatch);
     }
 
-}</code></pre><h2 id="2-6分组和反向引用"><a href="#2-6分组和反向引用" class="headerlink" title="2.6分组和反向引用"></a>2.6分组和反向引用</h2></li>
+}</code></pre><h3 id="2-6分组和反向引用"><a href="#2-6分组和反向引用" class="headerlink" title="2.6分组和反向引用"></a>2.6分组和反向引用</h3></li>
 </ul>
 <p>小括号 () 可以达到对正则表达式进行分组的效果。例如，正则表达式 (dog) 创建了单一分组，组里包含”d”，”o”，和”g”。</p>
 <p>捕获组是通过从左至右计算其开括号来编号。例如，在表达式（（A）（B（C））），有四个这样的组：</p>
@@ -837,7 +837,7 @@ public class RegexMatches2 {
         System.out.println(content.replaceAll(pattern, "$1$3")); 
         //输出为 Hello, World.
     }
-}</code></pre><h2 id="2-6-1-仅创建分组不反向引用"><a href="#2-6-1-仅创建分组不反向引用" class="headerlink" title="2.6.1 仅创建分组不反向引用"></a>2.6.1 仅创建分组不反向引用</h2><p>当我们在小括号 () 内的模式开头加入 ?:，那么表示这个模式仅分组，但不创建反向引用。</p>
+}</code></pre><h3 id="2-6-1-仅创建分组不反向引用"><a href="#2-6-1-仅创建分组不反向引用" class="headerlink" title="2.6.1 仅创建分组不反向引用"></a>2.6.1 仅创建分组不反向引用</h3><p>当我们在小括号 () 内的模式开头加入 ?:，那么表示这个模式仅分组，但不创建反向引用。</p>
 <p>实例</p>
 <pre><code>package com.java.regex;
 
@@ -862,7 +862,7 @@ java</code></pre><p>但若将pattern变成(?:class|java),输出结果为</p>
 <pre><code>java
 Exception in thread "main" java.lang.IndexOutOfBoundsException: No group 1
     at java.util.regex.Matcher.group(Matcher.java:538)
-    at com.java.regex.RegexTest.main(RegexTest.java:15)</code></pre><h2 id="2-6-2反向引用的副本"><a href="#2-6-2反向引用的副本" class="headerlink" title="2.6.2反向引用的副本"></a>2.6.2反向引用的副本</h2><p>可以在小括号中使用 ?<name> 将小括号中匹配的内容保存为一个名字为 name 的副本或者说别名。</name></p>
+    at com.java.regex.RegexTest.main(RegexTest.java:15)</code></pre><h3 id="2-6-2反向引用的副本"><a href="#2-6-2反向引用的副本" class="headerlink" title="2.6.2反向引用的副本"></a>2.6.2反向引用的副本</h3><p>可以在小括号中使用 ?<name> 将小括号中匹配的内容保存为一个名字为 name 的副本或者说别名。</name></p>
 <p>实例</p>
 <pre><code>package com.java.regex;
 
@@ -886,9 +886,9 @@ public class RegexTest {
 </code></pre><p>输出为</p>
 <pre><code>java
 java
-java</code></pre><h2 id="2-7反斜杠"><a href="#2-7反斜杠" class="headerlink" title="2.7反斜杠"></a>2.7反斜杠</h2><p>由于Java中反斜杠”\“字符的转义作用(ps：md中也是一样)，在普通字符串中使用”\\“表示一个反斜杠，故在正则表达式中\\.表示\.,\\\\表示\\用于在正则表达式来匹配\ 。</p>
-<h2 id="2-8否定"><a href="#2-8否定" class="headerlink" title="2.8否定"></a>2.8否定</h2><p>a(?|b)表示a后不跟b</p>
-<h1 id="3-模式和匹配"><a href="#3-模式和匹配" class="headerlink" title="3.模式和匹配"></a>3.模式和匹配</h1><p>Java 中使用正则表达式需要用到两个类，分别为 java.util.regex.Pattern 和 java.util.regex.Matcher。</p>
+java</code></pre><h3 id="2-7反斜杠"><a href="#2-7反斜杠" class="headerlink" title="2.7反斜杠"></a>2.7反斜杠</h3><p>由于Java中反斜杠”\“字符的转义作用(ps：md中也是一样)，在普通字符串中使用”\\“表示一个反斜杠，故在正则表达式中\\.表示\.,\\\\表示\\用于在正则表达式来匹配\ 。</p>
+<h3 id="2-8否定"><a href="#2-8否定" class="headerlink" title="2.8否定"></a>2.8否定</h3><p>a(?|b)表示a后不跟b</p>
+<h2 id="3-模式和匹配"><a href="#3-模式和匹配" class="headerlink" title="3.模式和匹配"></a>3.模式和匹配</h2><p>Java 中使用正则表达式需要用到两个类，分别为 java.util.regex.Pattern 和 java.util.regex.Matcher。</p>
 <p>第一步，通过正则表达式创建模式对象 Pattern。</p>
 <p>第二步，通过模式对象 Pattern，根据指定字符串创建匹配对象 Matcher。</p>
 <p>第三步，通过匹配对象 Matcher，根据正则表达式操作字符串。</p>
@@ -935,10 +935,10 @@ end(): 11
 Match number 4
 start(): 19
 end(): 22
-cat^cat^cat^cattie^cat</code></pre><h1 id="4-使用案例"><a href="#4-使用案例" class="headerlink" title="4.使用案例"></a>4.使用案例</h1><h2 id="4-1-数字范围"><a href="#4-1-数字范围" class="headerlink" title="4.1 数字范围"></a>4.1 数字范围</h2><p>匹配1997-2019</p>
+cat^cat^cat^cattie^cat</code></pre><h2 id="4-使用案例"><a href="#4-使用案例" class="headerlink" title="4.使用案例"></a>4.使用案例</h2><h3 id="4-1-数字范围"><a href="#4-1-数字范围" class="headerlink" title="4.1 数字范围"></a>4.1 数字范围</h3><p>匹配1997-2019</p>
 <p>错误示范[1997-2019]</p>
 <p>应该写成<br>^199[7-9]$|^20[0-1][0-6]$|^201[7-9]$</p>
-<h2 id="4-2-贪婪与非贪婪匹配"><a href="#4-2-贪婪与非贪婪匹配" class="headerlink" title="4.2 贪婪与非贪婪匹配"></a>4.2 贪婪与非贪婪匹配</h2><pre><code>package com.java.regex;
+<h3 id="4-2-贪婪与非贪婪匹配"><a href="#4-2-贪婪与非贪婪匹配" class="headerlink" title="4.2 贪婪与非贪婪匹配"></a>4.2 贪婪与非贪婪匹配</h3><pre><code>package com.java.regex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -968,6 +968,11 @@ public class RegexTest {
 --------------
 文章标题
 发布时间</code></pre><p>还有独占模式+,即尽可能多地匹配，但是不回溯,这篇文章给出一个使用独占模式解决bug的例子<a href="https://www.cnblogs.com/Renyi-Fan/p/9694695.html" target="_blank" rel="noopener">链接</a>.</p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
+<li><a href="https://segmentfault.com/a/1190000009162306" target="_blank" rel="noopener">Java 正则表达式详解</a></li>
+<li><a href="https://www.runoob.com/java/java-regular-expressions.html" target="_blank" rel="noopener">菜鸟教程</a></li>
+<li><a href="https://www.cnblogs.com/Renyi-Fan/p/9694695.html" target="_blank" rel="noopener">正则表达式里的底层原理是什么</a></li>
+</ul>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
