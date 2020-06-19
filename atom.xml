@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cenluchen.github.io/"/>
-  <updated>2019-12-12T07:13:21.523Z</updated>
+  <updated>2020-06-19T12:12:45.138Z</updated>
   <id>http://cenluchen.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux命令三剑客之awk命令</title>
+    <link href="http://cenluchen.github.io/2020/06/10/linux-ming-ling-san-jian-ke-zhi-awk-ming-ling/"/>
+    <id>http://cenluchen.github.io/2020/06/10/linux-ming-ling-san-jian-ke-zhi-awk-ming-ling/</id>
+    <published>2020-06-10T14:34:42.000Z</published>
+    <updated>2020-06-19T12:12:45.138Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;awk简介&quot;&gt;&lt;a href=&quot;#awk简介&quot; class=&quot;headerlink&quot; title=&quot;awk简介&quot;&gt;&lt;/a&gt;awk简介&lt;/h2&gt;&lt;p&gt;awk其名称得自于它的创始人 Alfred Aho 、Peter Weinberger 和 Brian
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Linux命令" scheme="http://cenluchen.github.io/categories/Linux%E5%91%BD%E4%BB%A4/"/>
+    
+    
+      <category term="Linux命令" scheme="http://cenluchen.github.io/tags/Linux%E5%91%BD%E4%BB%A4/"/>
+    
+      <category term="Linux" scheme="http://cenluchen.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Java正则表达式</title>
     <link href="http://cenluchen.github.io/2019/12/12/java-zheng-ze-biao-da-shi/"/>
     <id>http://cenluchen.github.io/2019/12/12/java-zheng-ze-biao-da-shi/</id>
     <published>2019-12-12T02:14:02.000Z</published>
-    <updated>2019-12-12T07:13:21.523Z</updated>
+    <updated>2020-06-10T14:21:57.122Z</updated>
     
     <summary type="html">
     

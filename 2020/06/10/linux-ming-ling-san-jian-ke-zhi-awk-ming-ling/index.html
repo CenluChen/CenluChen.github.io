@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Cenlu的博客">
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex">
+    <meta name="keywords" content="Linux命令三剑客之awk命令, Cenlu的博客">
+    <meta name="description" content="awk简介awk其名称得自于它的创始人 Alfred Aho 、Peter Weinberger 和 Brian Kernighan 姓氏的首个字母。实际上 AWK 的确拥有自己的语言： AWK 程序设计语言 ， 三位创建者已将它正式定义为">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Hello World | Cenlu的博客</title>
+    <title>Linux命令三剑客之awk命令 | Cenlu的博客</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -304,12 +304,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">Linux命令三剑客之awk命令</h1>
                 </div>
             </div>
         </div>
@@ -424,12 +424,29 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Linux%E5%91%BD%E4%BB%A4/">
+                                <span class="chip bg-color">Linux命令</span>
+                            </a>
+                        
+                            <a href="/tags/Linux/">
+                                <span class="chip bg-color">Linux</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Linux%E5%91%BD%E4%BB%A4/" class="post-category">
+                                Linux命令
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -438,28 +455,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-12-12
+                    2020-06-10
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2019-12-12
+                    2020-06-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    125
+                    637
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 				
@@ -475,15 +492,111 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+                <h2 id="awk简介"><a href="#awk简介" class="headerlink" title="awk简介"></a>awk简介</h2><p>awk其名称得自于它的创始人 Alfred Aho 、Peter Weinberger 和 Brian Kernighan 姓氏的首个字母。实际上 AWK 的确拥有自己的语言： AWK 程序设计语言 ， 三位创建者已将它正式定义为“样式扫描和处理语言”。它允许您创建简短的程序，这些程序读取输入文件、为数据排序、处理数据、对输入执行计算以及生成报表，还有无数其他的功能。</p>
+<h2 id="awk使用"><a href="#awk使用" class="headerlink" title="awk使用"></a>awk使用</h2><p>awk的使用格式为</p>
+<pre><code>awk [选项] '{条件选择+处理动作}' 文件</code></pre><p>其中，条件选择可以是正则表达式匹配或者其他的bool值条件，处理动作对满足选择条件的文本进行进一步处理。</p>
+<p>awk命令通常以行为处理单位，每接收一行进行一次处理。</p>
+<h3 id="awk初探"><a href="#awk初探" class="headerlink" title="awk初探"></a>awk初探</h3><p>下面通过几个简短的命令简要说明awk</p>
+<pre class=" language-shell"><code class="language-shell">[csl@csl ~]$ echo 123 | awk '{print $1}'
+123
+[csl@csl ~]$ echo 123 | awk '{print "hello,world"}'
+hello,world
+[csl@csl ~]$ awk '{print $0}' /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+······</code></pre>
+<p>awk既可以以文件作为输入，也可以通过管道将上一层的输出转化为输入（管道本身就是文件）。awk对于每一行输入执行print的操作，echo 123只有一行，所致只会输出一行，对passwd文件的每一行执行输出这一行的内容，效果与 cat /etc/passwd 一样。</p>
+<p><label style="color:red">awk对于每一行执行既定动作</label><br><img src="princeple.jpg" alt="awk 原理示意"><br>字段分割符FS可以通过参数 -F指定</p>
+<pre class=" language-shell"><code class="language-shell">$ awk -F":" '{ print $1 }' /etc/passwd
+$ awk -F":" '{ print $1 " " $3 }' /etc/passwd
+$ awk -F":" '{ print "username: " $1 "\t\tuid:" $3" }' /etc/passwd
+</code></pre>
+<h4 id="实例一-输出文件第10-20行的内容"><a href="#实例一-输出文件第10-20行的内容" class="headerlink" title="实例一 输出文件第10-20行的内容"></a>实例一 输出文件第10-20行的内容</h4><pre class=" language-shell"><code class="language-shell">[csl@csl ~]$ awk '{if(NR>=10 && NR<=20) print NR "：" $0}' /etc/passwd
+10：operator:x:11:0:operator:/root:/sbin/nologin
+11：games:x:12:100:games:/usr/games:/sbin/nologin
+12：ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+13：nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+14：dbus:x:81:81:System message bus:/:/sbin/nologin
+15：systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+16：systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+17：tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+18：polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+19：unbound:x:997:995:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+20：sssd:x:996:993:User for sssd:/:/sbin/nologin</code></pre>
+<h4 id="实例二-自定义字段分割符"><a href="#实例二-自定义字段分割符" class="headerlink" title="实例二 自定义字段分割符"></a>实例二 自定义字段分割符</h4><pre class=" language-shell"><code class="language-shell">[csl@csl ~]$ cat test.txt 
+i am Steve, i am 33 years old</code></pre>
+<p>输出<br>Steve 33</p>
+<pre class=" language-shell"><code class="language-shell">[csl@csl ~]$ awk -F '[ ,]+' '{print $3 " " $6}' test.txt 
+Steve 33</code></pre>
+<h3 id="BEGIN和END模块"><a href="#BEGIN和END模块" class="headerlink" title="BEGIN和END模块"></a>BEGIN和END模块</h3><p>通常，对于每个输入行， awk 都会执行每个脚本代码块一次。然而，在许多编程情况中，可能需要在 awk 开始处理输入文件中的文本之前执行初始化代码。对于这种情况， awk 允许定义一个 BEGIN 块。</p>
+<p>因为 awk 在开始处理输入文件之前会执行 BEGIN 块，因此它是初始化 FS（字段分隔符）变量、打印页眉或初始化其它在程序中以后会引用的全局变量的极佳位置。<br>awk 还提供了另一个特殊块，叫作 END 块。 awk 在处理了输入文件中的所有行之后执行这个块。通常， END 块用于执行最终计算或打印应该出现在输出流结尾的摘要信息。</p>
+<h4 id="实例三-打印-etc-passwd的账户数"><a href="#实例三-打印-etc-passwd的账户数" class="headerlink" title="实例三 打印/etc/passwd的账户数"></a>实例三 打印/etc/passwd的账户数</h4><pre class=" language-shell"><code class="language-shell">[csl@csl ~]$ awk '{count++;print $0 } END{print "total count is: " count}' /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+······
+total count is: 25</code></pre>
+<p>在动作语句中对count累加，多个动作之间通过”;”隔开，count变量默认初始化初始化为0，最好还是显示初始化。</p>
+<pre class=" language-shell"><code class="language-shell">[csl@csl ~]$  awk 'BEGIN{count=0;print "[BEGIN] total count: " count;} {count++;print $0 } END{print "[END] total count is: " count}' /etc/passwd
+[BEGIN] total count: 0
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+······
+[END] total count is: 25</code></pre>
+<h4 id="实例四-统计某个文件下的字节数"><a href="#实例四-统计某个文件下的字节数" class="headerlink" title="实例四 统计某个文件下的字节数"></a>实例四 统计某个文件下的字节数</h4><pre class=" language-shell"><code class="language-shell">[csl@csl etc]$ ll|awk 'BEGIN{size=0;} {size=size+$5;} END{print "total size: " size;}'
+total size: 857309</code></pre>
+<p>以M为单位</p>
+<pre class=" language-shell"><code class="language-shell">[csl@csl etc]$ ll|awk 'BEGIN{size=0;} {size=size+$5;} END{print "total size: " size/1024/1024 "M";}'
+total size: 0.817594M</code></pre>
+<h3 id="awk运算符"><a href="#awk运算符" class="headerlink" title="awk运算符"></a>awk运算符</h3><p><img src="awkOps.jpg" alt="awk运算符"></p>
+<p>逻辑运算符</p>
+<pre class=" language-shell"><code class="language-shell">[csl@csl etc]$ awk 'BEGIN{a=5;b=10;print (a>5||b>9,a>5&&b>9)}'
+1 0</code></pre>
+<p>正则运算</p>
+<pre class=" language-shell"><code class="language-shell">[csl@csl etc]$ awk 'BEGIN{a="100testaa";if(a~/100/) {print "ok"}}'
+ok</code></pre>
+<h3 id="常用awk内置变量"><a href="#常用awk内置变量" class="headerlink" title="常用awk内置变量"></a>常用awk内置变量</h3><table>
+<thead>
+<tr>
+<th>变量名</th>
+<th align="left">属性</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$0</td>
+<td align="left">当前记录</td>
+</tr>
+<tr>
+<td>$1~$n</td>
+<td align="left">当前记录的第n个字段</td>
+</tr>
+<tr>
+<td>FS</td>
+<td align="left">输入字段分隔符，默认空格</td>
+</tr>
+<tr>
+<td>RS</td>
+<td align="left">输入记录分隔符，默认\n</td>
+</tr>
+<tr>
+<td>NF</td>
+<td align="left">记录中的字段个数</td>
+</tr>
+<tr>
+<td>NR</td>
+<td align="left">记录中的记录数，即行号，从1开始</td>
+</tr>
+<tr>
+<td>OFS</td>
+<td align="left">输出字段分隔符，默认空格</td>
+</tr>
+<tr>
+<td>ORS</td>
+<td align="left">输出记录分隔符，默认换行</td>
+</tr>
+</tbody></table>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -527,7 +640,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://cenluchen.github.io/2019/12/12/hello-world/">http://cenluchen.github.io/2019/12/12/hello-world/</a>
+                    <a href="http://cenluchen.github.io/2020/06/10/linux-ming-ling-san-jian-ke-zhi-awk-ming-ling/">http://cenluchen.github.io/2020/06/10/linux-ming-ling-san-jian-ke-zhi-awk-ming-ling/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -564,7 +677,15 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Linux%E5%91%BD%E4%BB%A4/">
+                                    <span class="chip bg-color">Linux命令</span>
+                                </a>
+                            
+                                <a href="/tags/Linux/">
+                                    <span class="chip bg-color">Linux</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -733,7 +854,7 @@
         repo: 'cenluchen.github.io',
         owner: 'cenluchen',
         admin: "cenluchen",
-        id: '2019-12-12T09-02-15',
+        id: '2020-06-10T22-34-42',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -754,9 +875,64 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2020/06/10/linux-ming-ling-san-jian-ke-zhi-awk-ming-ling/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Linux命令三剑客之awk命令">
+                        
+                        <span class="card-title">Linux命令三剑客之awk命令</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            awk简介awk其名称得自于它的创始人 Alfred Aho 、Peter Weinberger 和 Brian Kernighan 姓氏的首个字母。实际上 AWK 的确拥有自己的语言： AWK 程序设计语言 ， 三位创建者已将它正式定义为
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-10
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Linux%E5%91%BD%E4%BB%A4/" class="post-category">
+                                    Linux命令
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Linux%E5%91%BD%E4%BB%A4/">
+                        <span class="chip bg-color">Linux命令</span>
+                    </a>
+                    
+                    <a href="/tags/Linux/">
+                        <span class="chip bg-color">Linux</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2019/12/12/java-zheng-ze-biao-da-shi/">
                     <div class="card-image">
@@ -775,9 +951,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-12-12
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-12
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -802,44 +978,6 @@
                     </a>
                     
                 </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/2019/12/12/hello-world/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
-                        
-                        <span class="card-title">Hello World</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2019-12-12
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            Cenlu
-                            
-                        </span>
-                    </div>
-                </div>
-
                 
             </div>
         </div>
